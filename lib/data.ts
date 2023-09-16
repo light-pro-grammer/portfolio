@@ -63,23 +63,28 @@ export const projectsData = [
   {
     title: 'ByteByByte Blog',
     description:
-      'I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.',
-    tags: ['React', 'Next.js', 'MongoDB', 'Tailwind', 'Prisma'],
+      'I worked as a full-stack developer on this startup project almost a year. It is a blog about programming.',
+    tags: ['Next.js', 'TypeScript', 'Express', 'MongoDB', 'Bootstrap', 'Redis'],
     imageUrl: bytebybyteImg,
+    githubLink: 'https://github.com/yourUsername/bytebybyte',
+    deployedLink: 'https://bytebybyte.example.com',
   },
   {
     title: 'TalkNet',
-    description:
-      'I built it mainly to learn push notifications and service workers. It has features like sorting, searching, pagination etc.',
+    description: 'A messaging app that has features like sorting, searching, pagination etc.',
     tags: ['Next.js 13', 'TypeScript', 'Clerk Auth', 'Push Notific.', 'Tailwind'],
     imageUrl: talknetImg,
+    githubLink: 'https://github.com/light-pro-grammer/TalkNet',
+    deployedLink: 'https://talk-net.vercel.app',
   },
   {
     title: 'Wild Oasis',
     description:
-      'A public web app for quick analytics on text. It shows word count, character count and social media post limits.',
-    tags: ['React', 'Next.js', 'SQL', 'Tailwind', 'Framer'],
+      'An internal web app to use by hotel staff for managing operations, including bookings, cabins, and guest details.',
+    tags: ['React', 'styled-components', 'React Query', 'Supabase'],
     imageUrl: wildoasisImg,
+    githubLink: 'https://github.com/light-pro-grammer/the-wild-oasis',
+    deployedLink: 'https://the-wild-oasis-ashen-five.vercel.app/',
   },
 ] as const;
 
