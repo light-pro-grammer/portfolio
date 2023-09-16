@@ -28,7 +28,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="/../public/profile_photo.png"
+              src="/profile_photo.png"
               alt="Ivan portrait"
               width="192"
               height="192"
